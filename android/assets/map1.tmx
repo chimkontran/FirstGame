@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="240" height="13" tilewidth="70" tileheight="70" nextobjectid="100">
+ <tileset firstgid="1" name="tileset_gutter2" tilewidth="70" tileheight="70" spacing="2" margin="1" tilecount="156" columns="12">
+  <image source="E:/AndroidStudioProjects/FirstGame/android/assets/tileset_gutter2.png" width="914" height="936"/>
+ </tileset>
+ <tileset firstgid="157" name="bg" tilewidth="70" tileheight="70" spacing="2" margin="1" tilecount="9" columns="3">
+  <image source="E:/AndroidStudioProjects/FirstGame/android/assets/bg.png" width="256" height="256"/>
+ </tileset>
+ <layer name="Background Color" width="240" height="13">
+  <data encoding="base64" compression="zlib">
+   eJztzrEJADAMA7Cc7kf6ay8IgS6hoEG7TlUdAAAAAAAAAL6RxvYLmKWx/QJmaWy/gFka2y9glsb2C3h3AW6ZdnQ=
+  </data>
+ </layer>
+ <layer name="Ground Layer" width="240" height="13">
+  <data encoding="base64" compression="zlib">
+   eJztmD1vwjAQho+1/4Sl6tyN/wF72duumCEjA2P/bRM1kU4pZ5+d80fI+0ivBJIVH2c/MQkRAAAAAEA5diw55wAAPCfwexno3za41y4ArBbcI9bDPmIs1tUO9HKbdGOG9decsV99XhQ5GdR2GQPaYY33iTdPajB4NjnXjd+nzyX4UYRzoTwu5rpuaM5nYo0+xuL6vEaM5+dZKadyM9+3Wndj52jxzJXqaa3O1jiy5EB773F93jPV0Cqh59il/qa4WtLt2HlqunynOu8Xj4HwPREayx2PeYeiwVHb/mp+70difFievSUI9cnKQc11LPZox2Lt8Ly+kJ8WkXxeiiNbfzVrd6U0387C9VJ76qNVf0O94z3KfW5+P6htvk+lNZOYnsu4t3OXJTTnYAlXpdxYQue0Fkf//T3Qn4ep/dCsnaVvW/J34OZJbTT1DJ5/Uvr/Jim+vvhSw18pS53j+QVowc3x
+  </data>
+ </layer>
+ <objectgroup name="Ground">
+  <object id="3" x="0" y="840" width="1190" height="70"/>
+  <object id="6" x="1540" y="770" width="1050" height="70"/>
+  <object id="8" x="1610" y="840" width="910" height="70"/>
+  <object id="9" x="2940" y="700" width="980" height="210"/>
+  <object id="11" x="4200" y="420" width="770" height="70"/>
+  <object id="12" x="4270" y="490" width="630" height="70"/>
+  <object id="13" x="4340" y="560" width="490" height="140"/>
+  <object id="14" x="4410" y="700" width="350" height="210"/>
+  <object id="16" x="4060" y="560" width="70" height="70"/>
+  <object id="17" x="5110" y="490" width="210" height="70"/>
+  <object id="18" x="5460" y="630" width="210" height="70"/>
+  <object id="19" x="5810" y="560" width="210" height="70"/>
+  <object id="20" x="6090" y="420" width="140" height="70"/>
+  <object id="21" x="6370" y="630" width="140" height="70"/>
+  <object id="22" x="6650" y="490" width="210" height="70"/>
+  <object id="24" x="7070" y="770" width="630" height="70"/>
+  <object id="25" x="7140" y="840" width="490" height="70"/>
+  <object id="28" x="7840" y="770" width="70" height="70"/>
+  <object id="29" x="8050" y="700" width="70" height="70"/>
+  <object id="30" x="8260" y="630" width="70" height="70"/>
+  <object id="31" x="8470" y="560" width="70" height="70"/>
+  <object id="33" x="8680" y="490" width="70" height="70"/>
+  <object id="34" x="8890" y="560" width="70" height="70"/>
+  <object id="35" x="9100" y="630" width="70" height="70"/>
+  <object id="36" x="9310" y="700" width="70" height="70"/>
+  <object id="37" x="9520" y="770" width="70" height="70"/>
+  <object id="40" x="9800" y="770" width="420" height="70"/>
+  <object id="41" x="9870" y="840" width="280" height="70"/>
+  <object id="43" x="10500" y="840" width="1540" height="70"/>
+  <object id="46" x="12040" y="770" width="980" height="140"/>
+  <object id="47" x="13020" y="700" width="350" height="210"/>
+  <object id="48" x="13370" y="630" width="1400" height="280"/>
+  <object id="49" x="13930" y="560" width="210" height="70"/>
+  <object id="50" x="14770" y="700" width="280" height="210"/>
+  <object id="51" x="15050" y="770" width="420" height="140"/>
+  <object id="52" x="15470" y="840" width="1330" height="70"/>
+ </objectgroup>
+ <objectgroup name="Coins">
+  <object id="56" x="15610" y="560" width="70" height="70"/>
+  <object id="57" x="14070" y="280" width="70" height="70"/>
+  <object id="58" x="13160" y="420" width="70" height="70"/>
+  <object id="59" x="12320" y="210" width="70" height="70"/>
+  <object id="60" x="12320" y="490" width="70" height="70"/>
+  <object id="62" x="11340" y="350" width="70" height="70"/>
+  <object id="63" x="6720" y="210" width="70" height="70"/>
+  <object id="64" x="6160" y="140" width="70" height="70"/>
+  <object id="65" x="5530" y="350" width="70" height="70"/>
+  <object id="68" x="4410" y="140" width="70" height="70"/>
+  <object id="69" x="4480" y="140" width="70" height="70"/>
+  <object id="72" x="4550" y="140" width="70" height="70"/>
+  <object id="73" x="3500" y="420" width="70" height="70"/>
+  <object id="74" x="2170" y="490" width="70" height="70"/>
+  <object id="75" x="2380" y="490" width="70" height="70"/>
+  <object id="76" x="420" y="560" width="70" height="70"/>
+ </objectgroup>
+ <objectgroup name="Boxes">
+  <object id="77" x="350" y="560" width="70" height="70"/>
+  <object id="78" x="490" y="560" width="70" height="70"/>
+  <object id="79" x="560" y="560" width="70" height="70"/>
+  <object id="82" x="2030" y="490" width="70" height="70"/>
+  <object id="83" x="2100" y="490" width="70" height="70"/>
+  <object id="85" x="2240" y="490" width="70" height="70"/>
+  <object id="90" x="2450" y="490" width="70" height="70"/>
+  <object id="91" x="2310" y="490" width="70" height="70"/>
+  <object id="92" x="3360" y="420" width="70" height="70"/>
+  <object id="93" x="3430" y="420" width="70" height="70"/>
+  <object id="94" x="3570" y="420" width="70" height="70"/>
+  <object id="95" x="4060" y="280" width="70" height="70"/>
+  <object id="97" x="10990" y="770" width="630" height="70"/>
+  <object id="98" x="11130" y="700" width="350" height="70"/>
+  <object id="99" x="11270" y="630" width="140" height="70"/>
+ </objectgroup>
+</map>
